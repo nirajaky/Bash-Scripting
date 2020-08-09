@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
-echo "Enter names";
-read file
-ans= [ -f $file ]
-echo "$ans"
+for (( i=3;i<=20;i++ ))
+do
+   echo $i
+done
+
